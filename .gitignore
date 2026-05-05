@@ -1,0 +1,15 @@
+# Python & Environments
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Credentials & Secrets
+.env
+.streamlit/secrets.toml
+
+# Airflow Specific
+logs/
+airflow.db
+airflow-webserver.pid
+webserver_config.py
